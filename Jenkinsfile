@@ -18,7 +18,7 @@ pipeline {
                 <head><metacharset="UTF-8"></head>
                 <body>
                 <h1>Bonjour depuis mon conteneur Docker ! 🐳</h1>
-                <p>Ce conteneur a été généré 100% localement par Jenkins, sans aucun Git !</p>
+                <p>Ce conteneur a été généré 100% localement par Jenkins, sans aucun Git !</p> 
                 </body>
                 </html>
                 '''
