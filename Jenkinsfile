@@ -23,7 +23,7 @@ pipeline {
                 </html>
                 '''
                 echo 'Création du Dockerfile à la volée...' 
-                writeFile file: 'Dockerfile', text: ''' //fonction de Jenkins permettant de créer un fichier
+                writeFile file: 'Dockerfile', text: ''' 
                 FROM nginx:alpine
                 COPY index.html /usr/share/nginx/html/index.html
                 EXPOSE 80
