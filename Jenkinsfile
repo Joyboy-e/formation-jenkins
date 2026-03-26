@@ -11,7 +11,7 @@ pipeline {
         stage('Génération des fichiers'){
              steps {
                 echo 'Création de la page web index.html à la volée...' 
-                //La commande writeFile crée un fichier dans l'espace de travail de Jenkins
+                // La commande writeFile crée un fichier dans l'espace de travail de Jenkins
                 writeFile file: 'index.html', text: '''
                 <!DOCTYPE html>
                 <html>
